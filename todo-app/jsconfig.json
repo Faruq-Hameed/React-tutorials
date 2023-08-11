@@ -1,0 +1,11 @@
+// For the code editor to know how to resolve the alias and add intellisense in the vite config
+
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+  }
+  
